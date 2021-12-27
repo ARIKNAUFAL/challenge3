@@ -1,0 +1,570 @@
+body,
+html,
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+html {
+  --gap: 7rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+body .wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+#main-cta {
+  height: 960.14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: radial-gradient(
+      189.96% 61.18% at 50% 38.82%,
+      rgba(255, 181, 72, 0) 0%,
+      rgba(52, 44, 29, 0.80319) 73.22%,
+      #08090a 99.74%
+    ),
+    url("assets/1072679.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 54px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--gap);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+header #logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+}
+header #main-nav {
+  flex-grow: 2;
+  padding-left: 142px;
+}
+header #main-nav > ul,
+header #auth-nav > ul,
+footer #footer-nav > ul,
+footer #social-platform > ul,
+footer #end-nav > ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  list-style-image: none;
+}
+header #main-nav > ul > li > a,
+header #auth-nav > ul > li > a,
+footer #footer-nav > ul > li > a,
+footer #social-platform > ul > li > a,
+footer #end-nav > ul > li > a,
+footer #end-nav > ul > li > p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1.2rem 1rem;
+  letter-spacing: 0.1em;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-content: space-between;
+}
+.content #headline,
+.content #sub-headline,
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.content #headline {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.content #sub-headline {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 57.28px 0;
+}
+.btn {
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+  padding: 18.5px 88px;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #1a1917;
+}
+#scroll-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#scroll-down p {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+#scroll-down #arrow-down {
+  margin-bottom: 10px;
+}
+#about {
+  height: 1051.43px;
+  padding: 0 var(--gap);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(
+      136.03% 54.57% at 50% 48.04%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 60.63%,
+      #080a0b 99.74%
+    ),
+    url("assets/valoo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial;
+}
+#about #gallery-container {
+  display: grid;
+  grid-template-columns: 400px 28px 858px 28px;
+  grid-template-rows: 39px 477px;
+}
+#item-1 {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 1;
+  font-size: 26px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+#item-3 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  font-size: 34px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#arrow-left {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  align-self: center;
+}
+#image-container {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+}
+#image-container img {
+  max-width: 100%;
+  height: 100%;
+}
+#arrow-right {
+  grid-column: 4 / span 1;
+  grid-row: 2 / span 1;
+  justify-self: end;
+  align-self: center;
+}
+#game-features {
+  height: 870.26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: radial-gradient(
+      51.1% 80.48% at 30.85% 53.65%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 19.2%,
+      rgba(4, 5, 6, 0.520671) 47.48%,
+      #080a0b 99.74%
+    ),
+    url("assets/valooooo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial;
+}
+#feature-container {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -80px;
+}
+#feature-head h5 {
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+#feature-head h3 {
+  font-size: 56px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#feature-desc {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#feature-desc .feature {
+  display: flex;
+  flex-direction: row;
+}
+.desc-container {
+  width: 60%;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.desc-container .desc > h4 {
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffb548;
+}
+.desc-container .desc > p {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 18px;
+}
+#feature-desc .feature .timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#requirement {
+  height: 960.16px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: flex-end; */
+  background-image: radial-gradient(
+      33.26% 45% at 64.32% 47.1%,
+      rgba(255, 255, 255, 0) 3.36%,
+      rgba(0, 0, 0, 0) 19.22%,
+      #080a0b 99.74%
+    ),
+    url("assets/VALO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial;
+}
+#requirement > p {
+  height: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 54.29px;
+}
+#requirement-container {
+  display: flex;
+  padding: 0 var(--gap);
+}
+#requirement-content {
+  width: 50%;
+}
+#requirement-content > h2 {
+  font-weight: normal;
+  font-size: 56px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#requirement-table {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+#requirement-table #req-1 {
+  grid-area: 1 / 1 / span 1 / span 1;
+  border-width: 1px 0 0 1px;
+  border-color: #979797;
+  border-style: solid;
+}
+#requirement-table #req-2 {
+  grid-area: 1 / 2 / span 1 / span 1;
+  border-width: 1px 1px 0 1px;
+  border-color: #979797;
+  border-style: solid;
+}
+#requirement-table #req-3 {
+  grid-area: 2 / 1 / span 1 / span 1;
+  border-width: 1px 0 0 1px;
+  border-color: #979797;
+  border-style: solid;
+}
+#requirement-table #req-4 {
+  grid-area: 2 / 2 / span 1 / span 1;
+  border-width: 1px 1px 0 1px;
+  border-color: #979797;
+  border-style: solid;
+}
+#requirement-table #req-5 {
+  grid-area: 3 / 1 / span 1 / span 2;
+  border: 1px solid #979797;
+}
+.req-item {
+  /* border: 1px solid #979797; */
+  padding: 27px 19px;
+}
+.req-item > h5 {
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #ffb548;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.req-item > p {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 18px;
+}
+#quotes {
+  height: 960.16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--gap);
+  background-image: radial-gradient(
+      70.52% 37.27% at 24.21% 47.47%,
+      rgba(35, 15, 15, 0) 0%,
+      rgba(0, 0, 0, 0) 51.1%,
+      #080a0b 99.74%
+    ),
+    url("assets/valo\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial;
+}
+#quotes > div {
+  width: 50%;
+  height: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#quotes h2 {
+  font-weight: normal;
+  font-size: 56px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#quotes p {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 18px;
+}
+#quotes .btn-container {
+  justify-content: start;
+}
+#quotes #card-container {
+  height: 70%;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#quotes .card {
+  height: 70%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 20px;
+}
+#quotes .card.card-left {
+  height: 20%;
+  width: 75%;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  align-self: flex-start;
+}
+#quotes .card .profile {
+  display: flex;
+  align-content: center;
+}
+#quotes .card .profile .avatar {
+  display: flex;
+  width: 80%;
+}
+#quotes .card .profile .avatar > img {
+  border-radius: 30%;
+  box-shadow: 6px 2px #ffb548;
+}
+#quotes .card .profile .bio {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: center;
+  padding-left: 31px;
+}
+#quotes .card .profile .bio .name {
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #ffb548;
+}
+#quotes .card .profile .bio .profession {
+  margin-top: -8px;
+  font-family: Open Sans;
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+#quotes .card .profile .platform {
+  display: flex;
+  align-items: center;
+  width: 5%;
+}
+#quotes .card .date {
+  font-size: 14px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+#newsletter {
+  height: 959.87px;
+  background: #080a0b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--gap);
+}
+#newsletter #trophy {
+  width: 445px;
+  height: 695px;
+  flex-shrink: 0;
+  background-image: radial-gradient(
+      45.43% 53.19% at 50% 50%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 46.15%,
+      #080a0b 99.74%
+    ),
+    url("assets/valo\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#newsletter #trophy img {
+  position: relative;
+  z-index: -1;
+  display: block;
+  width: 100%;
+}
+#newsletter #newsletter-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 45%;
+  width: 55%;
+  margin-top: -100px;
+  /* padding-left: 60px; */
+}
+#newsletter #newsletter-content-container #question {
+  font-family: Arial;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+#newsletter #newsletter-content-container h2 {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 65px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+#newsletter #newsletter-content-container #news-text {
+  font-family: Open Sans;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#newsletter #newsletter-content-container #subscribe-form {
+  display: flex;
+}
+#newsletter #newsletter-content-container #subscribe-form #input {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-family: Open Sans;
+  width: 320px;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#subscribe-form #input .placeholder {
+  font-size: 14px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+#subscribe-form #input .value {
+  font-size: 18px;
+  color: #ffb548;
+}
+#subscribe-form .btn {
+  padding: 18.5px 73px;
+}
+footer {
+  background: #080a0b;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  padding: 0 var(--gap);
+}
+footer > div#nav {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 0.8px solid rgba(255, 255, 255, 0.5);
+}
+footer > div#end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer > div#end p {
+  font-family: Open Sans;
+  font-size: 14px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+footer #end-nav > ul > li > a,
+footer #end-nav > ul > li > p {
+  padding: 1.2rem 0.2rem;
+  letter-spacing: 0.1rem;
+}
+footer #end-nav > ul > li:last-child > a,
+footer #social-platform > ul > li:last-child > a {
+  padding-right: 0;
+}
